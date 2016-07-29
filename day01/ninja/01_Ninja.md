@@ -429,6 +429,41 @@ cash  credit_cards  id
 ``` shell
 # paste your command and output here
 ```
+peter@peter-VirtualBox:~/backpack/wallet$ cd ../secretspace/
+peter@peter-VirtualBox:~/backpack/secretspace$ ls
+cash001  cash002  cash003  paperwarrper
+peter@peter-VirtualBox:~/backpack/secretspace$ rm cash001 cash002 cash003
+peter@peter-VirtualBox:~/backpack/secretspace$ ls
+paperwarrper
+peter@peter-VirtualBox:~/backpack/secretspace$ cd ../
+peter@peter-VirtualBox:~/backpack$ rm -r lunchbox
+peter@peter-VirtualBox:~/backpack$ ls
+backup_wallet  cash002  credit_cards  credit_cards1  id  mainspace  secretspace  wallet
+peter@peter-VirtualBox:~/backpack$ ls -R
+.:
+backup_wallet  cash002  credit_cards  credit_cards1  id  mainspace  secretspace  wallet
+
+./backup_wallet:
+cash  credit_cards  id
+
+./mainspace:
+books  iphone  kindle  plasticbag  umbrella
+
+./mainspace/plasticbag:
+cloth
+
+./secretspace:
+paperwarrper
+
+./secretspace/paperwarrper:
+million_check
+
+./wallet:
+cash  credit_cards  id
+peter@peter-VirtualBox:~/backpack$ rm cash002 credit_cards credit_cards1 id 
+peter@peter-VirtualBox:~/backpack$ ls
+backup_wallet  mainspace  secretspace  wallet
+peter@peter-VirtualBox:~/backpack$ 
 
 ## Challenge
 
@@ -441,3 +476,46 @@ cash  credit_cards  id
 ``` shell
 # paste your command and output here
 ```
+peter@peter-VirtualBox:~$ ls .*
+.bash_history  .profile                   .vboxclient-draganddrop.pid  .xsession-errors.old
+.bash_logout   .sudo_as_admin_successful  .vboxclient-seamless.pid
+.bashrc        .vboxclient-clipboard.pid  .Xauthority
+.ICEauthority  .vboxclient-display.pid    .xsession-errors
+
+.:
+a         credit_cards  Documents  examples.desktop  Pictures  Templates  wallet
+backpack  Desktop       Downloads  Music             Public    Videos     workspace
+
+..:
+peter
+
+.cache:
+compizconfig-1                                                              ibus
+dconf                                                                       logrotate
+event-sound-cache.tdb.8f67118e6e4e42c2ad1d81f52056b4be.x86_64-pc-linux-gnu  mozilla
+evolution                                                                   ubuntu-amazon-default
+fontconfig                                                                  update-manager-core
+gnome-screenshot                                                            upstart
+gnome-software                                                              wallpaper
+gstreamer-1.0                                                               zeitgeist-vacuum.stamp
+
+.config:
+compiz-1   gnome-session  libaccounts-glib  ubuntu-amazon-default  update-notifier  user-dirs.locale
+dconf      gtk-3.0        nautilus          ubuntu-ui-toolkit      upstart
+evolution  ibus           pulse             unity                  user-dirs.dirs
+ls: cannot open directory '.dbus': Permission denied
+
+.gconf:
+
+.gnupg:
+private-keys-v1.d  S.gpg-agent
+ls: cannot open directory '.gvfs': Permission denied
+
+.local:
+share
+
+.mozilla:
+extensions  firefox
+
+.ssh:
+id_rsa  id_rsa.pub  known_hosts
