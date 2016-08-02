@@ -31,7 +31,13 @@ A journey of a thousand miles begins with a single step
 ```
 
 ``` shell
-# paste your command and output here
+peter@peter-VirtualBox:~/workspace/a$ echo Hello World > "Hello World"
+peter@peter-VirtualBox:~/workspace/a$ echo The quick brown fox jumps the lazy dog >> Hello\ World 
+peter@peter-VirtualBox:~/workspace/a$ echo A journay of a thousand miles begins with a single step >> Hello\ World 
+peter@peter-VirtualBox:~/workspace/a$ cat Hello\ World 
+Hello World
+The quick brown fox jumps the lazy dog
+A journay of a thousand miles begins with a single step
 ```
 
 ### Midsummer nights dream
