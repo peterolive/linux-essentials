@@ -55,10 +55,10 @@ A journey of a thousand miles begins with a single step
 
 ``` shell
 # How many lines in this file?
-#peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ wc NC-EST2015-AGESEX-RES.csv 
+peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ wc NC-EST2015-AGESEX-RES.csv 
   307   307 20831 NC-EST2015-AGESEX-RES.csv
 # Which fields (headers) are presented in this data file?
-# peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ head NC-EST2015-AGESEX-RES.csv 
+peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ head NC-EST2015-AGESEX-RES.csv 
 SEX,AGE,CENSUS2010POP,ESTIMATESBASE2010,POPESTIMATE2010,POPESTIMATE2011,POPESTIMATE2012,POPESTIMATE2013,POPESTIMATE2014,POPESTIMATE2015
 0,0,3944153,3944160,3951330,3963087,3926540,3931141,3949775,3978038
 0,1,3978070,3978090,3957888,3966551,3977939,3942872,3949776,3968564
@@ -72,7 +72,7 @@ SEX,AGE,CENSUS2010POP,ESTIMATESBASE2010,POPESTIMATE2010,POPESTIMATE2011,POPESTIM
 # How many types of SEX do you see in the data?
 # 
 # How many lines of SEX=2 in the data? (Hint: use grep with pattern: ^2, )
-# peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ grep ^2 NC-EST2015-AGESEX-RES.csv
+peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ grep ^2 NC-EST2015-AGESEX-RES.csv
 2,0,1929877,1929882,1932910,1934660,1918823,1921613,1929449,1942904
 2,1,1947217,1947229,1937556,1941029,1942479,1927402,1931375,1939269
 2,2,2004731,2004737,2002177,1944592,1948000,1950071,1935991,1939979
