@@ -52,7 +52,53 @@ A journay of a thousand miles begins with a single step
 > * (Hint: use option `-n` to display line numbers)
 
 ``` shell
-# paste your command and output here
+peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/drama$ grep -n QUINCE midsummer_nights_dream.html 
+484:<h3>SCENE II. Athens. QUINCE'S house.</h3>
+486:<i>Enter QUINCE, SNUG, BOTTOM, FLUTE, SNOUT, and STARVELING</i>
+489:<A NAME=speech1><b>QUINCE</b></a>
+500:<A NAME=speech3><b>QUINCE</b></a>
+515:<A NAME=speech5><b>QUINCE</b></a>
+528:<A NAME=speech7><b>QUINCE</b></a>
+538:<A NAME=speech9><b>QUINCE</b></a>
+548:<A NAME=speech11><b>QUINCE</b></a>
+574:<A NAME=speech13><b>QUINCE</b></a>
+584:<A NAME=speech15><b>QUINCE</b></a>
+594:<A NAME=speech17><b>QUINCE</b></a>
+604:<A NAME=speech19><b>QUINCE</b></a>
+618:<A NAME=speech21><b>QUINCE</b></a>
+628:<A NAME=speech23><b>QUINCE</b></a>
+638:<A NAME=speech25><b>QUINCE</b></a>
+649:<A NAME=speech27><b>QUINCE</b></a>
+662:<A NAME=speech29><b>QUINCE</b></a>
+675:<A NAME=speech31><b>QUINCE</b></a>
+697:<A NAME=speech34><b>QUINCE</b></a>
+711:<A NAME=speech36><b>QUINCE</b></a>
+724:<A NAME=speech38><b>QUINCE</b></a>
+744:<A NAME=speech40><b>QUINCE</b></a>
+1464:<i>Enter QUINCE, SNUG, BOTTOM, FLUTE, SNOUT, and STARVELING</i>
+1472:<A NAME=speech2><b>QUINCE</b></a>
+1485:<A NAME=speech4><b>QUINCE</b></a>
+1519:<A NAME=speech9><b>QUINCE</b></a>
+1568:<A NAME=speech16><b>QUINCE</b></a>
+1586:<A NAME=speech19><b>QUINCE</b></a>
+1598:<A NAME=speech21><b>QUINCE</b></a>
+1622:<A NAME=speech24><b>QUINCE</b></a>
+1640:<A NAME=speech26><b>QUINCE</b></a>
+1650:<A NAME=speech28><b>QUINCE</b></a>
+1675:<A NAME=speech32><b>QUINCE</b></a>
+1690:<A NAME=speech34><b>QUINCE</b></a>
+1710:<A NAME=speech37><b>QUINCE</b></a>
+1714:<p><i>Exeunt QUINCE, SNUG, FLUTE, SNOUT, and STARVELING</i></p>
+1745:<p><i>Re-enter QUINCE</i></p>
+1748:<A NAME=speech42><b>QUINCE</b></a>
+3353:<h3>SCENE II. Athens. QUINCE'S house.</h3>
+3355:<i>Enter QUINCE, FLUTE, SNOUT, and STARVELING</i>
+3358:<A NAME=speech1><b>QUINCE</b></a>
+3375:<A NAME=speech4><b>QUINCE</b></a>
+3387:<A NAME=speech6><b>QUINCE</b></a>
+3424:<A NAME=speech11><b>QUINCE</b></a>
+3436:<A NAME=speech13><b>QUINCE</b></a>
+3669:<p><i>Enter QUINCE for the Prologue</i></p>
 ```
 
 ### Look into the data
