@@ -63,6 +63,8 @@ adduser.conf            hosts.allow              profile.d
 alternatives            hosts.deny               protocols
 # ... ...
 ```
+
+``` shell
 peter@peter-VirtualBox:~$ cd '/usr/local/lib/python2.7/dist-packages/'
 peter@peter-VirtualBox:/usr/local/lib/python2.7/dist-packages$ pwd
 /usr/local/lib/python2.7/dist-packages
@@ -79,9 +81,6 @@ total 20
 -rwxr-xr-x 1 root root   73 Feb 18 16:19 unattended-upgrades
 lrwxrwxrwx 1 root root   49 Jul 11 10:50 update-notifier -> /usr/share/update-notifier/notify-reboot-required
 -rwxr-xr-x 1 root root  646 Mar 15 13:08 zz-update-grub
-
-``` shell
-# paste your command and output here
 ```
 
 ### Building your backpacks
@@ -127,8 +126,6 @@ backpack/
 > Be smart, try to use as minimum command lines as you can.
 
 ``` shell
-# paste your command and output here
-```
 peter@peter-VirtualBox:~$ cd backpack
 peter@peter-VirtualBox:~/backpack$ mkdir backup_wallet luchbox mainspace secretspace wallet
 peter@peter-VirtualBox:~/backpack$ ls
@@ -419,6 +416,8 @@ cash  credit_cards
 peter@peter-VirtualBox:~/backpack/wallet$ touch id
 peter@peter-VirtualBox:~/backpack/wallet$ ls
 cash  credit_cards  id
+```
+
 
 ### Remove items
 
@@ -427,8 +426,6 @@ cash  credit_cards  id
 > Someone said he would like to treat you for lunch when you visit, so there is no need to take the heavy lunchbox with you. Remove the lunchbox from your backpack.
 
 ``` shell
-# paste your command and output here
-```
 peter@peter-VirtualBox:~/backpack/wallet$ cd ../secretspace/
 peter@peter-VirtualBox:~/backpack/secretspace$ ls
 cash001  cash002  cash003  paperwarrper
@@ -464,6 +461,8 @@ peter@peter-VirtualBox:~/backpack$ rm cash002 credit_cards credit_cards1 id
 peter@peter-VirtualBox:~/backpack$ ls
 backup_wallet  mainspace  secretspace  wallet
 peter@peter-VirtualBox:~/backpack$ 
+```
+
 
 ## Challenge
 
@@ -474,8 +473,6 @@ peter@peter-VirtualBox:~/backpack$
 > There is a option for `ls` command to list all hidden files, find it out and use it for finding hidden files. (Tip: try `ls --help`)
 
 ``` shell
-# paste your command and output here
-```
 peter@peter-VirtualBox:~$ ls .*
 .bash_history  .profile                   .vboxclient-draganddrop.pid  .xsession-errors.old
 .bash_logout   .sudo_as_admin_successful  .vboxclient-seamless.pid
@@ -519,3 +516,5 @@ extensions  firefox
 
 .ssh:
 id_rsa  id_rsa.pub  known_hosts
+```
+
