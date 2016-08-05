@@ -65,14 +65,14 @@ alternatives            hosts.deny               protocols
 ```
 
 ``` shell
-peter@peter-VirtualBox:~$ cd '/usr/local/lib/python2.7/dist-packages/'
+peter@peter-VirtualBox:~$ cd /usr/local/lib/python2.7/dist-packages/
 peter@peter-VirtualBox:/usr/local/lib/python2.7/dist-packages$ pwd
 /usr/local/lib/python2.7/dist-packages
 peter@peter-VirtualBox:/usr/local/lib/python2.7/dist-packages$ cd
 peter@peter-VirtualBox:~$ pwd
 /home/peter
 peter@peter-VirtualBox:~$ 
-peter@peter-VirtualBox:~$ cd '/etc/kernel/postinst.d/'
+peter@peter-VirtualBox:~$ cd /etc/kernel/postinst.d/
 peter@peter-VirtualBox:/etc/kernel/postinst.d$ ls -l
 total 20
 -rwxr-xr-x 1 root root 2704 Apr 14 02:45 apt-auto-removal
