@@ -31,10 +31,10 @@ A journey of a thousand miles begins with a single step
 ```
 
 ``` shell
-peter@peter-VirtualBox:~/workspace/a$ echo Hello World > "Hello World"
-peter@peter-VirtualBox:~/workspace/a$ echo The quick brown fox jumps the lazy dog >> Hello\ World 
-peter@peter-VirtualBox:~/workspace/a$ echo A journay of a thousand miles begins with a single step >> Hello\ World 
-peter@peter-VirtualBox:~/workspace/a$ cat Hello\ World 
+peter@peter-VirtualBox:~/workspace/a$ echo "Hello World" > Hello
+peter@peter-VirtualBox:~/workspace/a$ echo "The quick brown fox jumps the lazy dog" >> Hello 
+peter@peter-VirtualBox:~/workspace/a$ echo "A journay of a thousand miles begins with a single step" >> Hello\ World 
+peter@peter-VirtualBox:~/workspace/a$ cat Hello 
 Hello World
 The quick brown fox jumps the lazy dog
 A journay of a thousand miles begins with a single step
@@ -107,29 +107,17 @@ peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/drama$ grep -n QUI
 
 ``` shell
 # How many lines in this file?
-peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ wc NC-EST2015-AGESEX-RES.csv 
-  307   307 20831 NC-EST2015-AGESEX-RES.csv
+  307
 # Which fields (headers) are presented in this data file?
-peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ head NC-EST2015-AGESEX-RES.csv 
 SEX,AGE,CENSUS2010POP,ESTIMATESBASE2010,POPESTIMATE2010,POPESTIMATE2011,POPESTIMATE2012,POPESTIMATE2013,POPESTIMATE2014,POPESTIMATE2015
-0,0,3944153,3944160,3951330,3963087,3926540,3931141,3949775,3978038
-0,1,3978070,3978090,3957888,3966551,3977939,3942872,3949776,3968564
-0,2,4096929,4096939,4090862,3971565,3980095,3992720,3959664,3966583
-0,3,4119040,4119051,4111920,4102470,3983157,3992734,4007079,3974061
-0,4,4063170,4063186,4077551,4122294,4112849,3994449,4005716,4020035
-0,5,4056858,4056872,4064653,4087709,4132242,4123626,4006900,4018158
-0,6,4066381,4066412,4073013,4074993,4097605,4142916,4135930,4019207
-0,7,4030579,4030594,4043046,4083225,4084913,4108349,4155326,4148360
-0,8,4046486,4046497,4025604,4053203,4093177,4095711,4120903,4167887
 # How many types of SEX do you see in the data?
-# 
+# 3
 # How many lines of SEX=2 in the data? (Hint: use grep with pattern: ^2, )
-peter@peter-VirtualBox:~/workspace/linux-essentials/day02/src/data$ grep ^2 NC-EST2015-AGESEX-RES.csv | wc
-    102     102    6889
+    102
 # What's the POPESTIMATE2015 value of AGE=25 for different SEX? (Hint: think about the pattern before grep)
 # Your answers:
 ```
-
+SEX=0 4729564; SEX=1 2407515; SEX=2 2322049 
 ``` shell
 # paste your command and output here.
 # if the output is too long, don't paste all, use ... ... instead.
